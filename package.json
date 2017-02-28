@@ -1,0 +1,23 @@
+{
+  "name": "couch2sql",
+  "description": "Watches change feeds to execute insert, update and delete operations to a sql database.",
+  "version": "0.0.1",
+  "author" : "Corey Gaspard <cgaspard@gmail.com>",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": "git@github.com:cgaspard/couchtosql.git",
+  "private": false,
+  "contributors": [
+    {
+      "name":"Corey Gaspard",
+      "email": "cgaspard@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "follow": "*",
+    "cradle": "*",
+    "mysql": "*"
+  }
+}
